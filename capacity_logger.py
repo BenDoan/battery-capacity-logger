@@ -7,7 +7,7 @@ sys.path.insert(0, SCRIPT_PATH + "/livia-client")
 import livia
 import subprocess
 
-LOGGER = "http://localhost:5000"
+LOGGER = "http://localhost:5000/projects/batteryLogger/"
 DATATYPE = "batteryLogger"
 
 def get_capacity():
